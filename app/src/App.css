@@ -1,0 +1,39 @@
+.app-shell {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #646cff;
+}
+
+.lead {
+  max-width: 36rem;
+}
+
+.counter {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: 0;
+  border-radius: 999px;
+  background: #646cff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.counter:hover {
+  background: #535bf2;
+}
+
+.counter:focus-visible {
+  outline: 3px solid #b3b7ff;
+  outline-offset: 3px;
+}
