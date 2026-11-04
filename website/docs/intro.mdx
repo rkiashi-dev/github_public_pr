@@ -1,0 +1,46 @@
+---
+sidebar_position: 1
+---
+
+# Project overview
+
+This repository contains a small **React + TypeScript** app and a **Docusaurus**
+site for documenting and publishing it with GitHub Pages.
+
+## What's included
+
+- `app/`: a Vite-powered React + TypeScript hello world application
+- `website/`: a Docusaurus site that documents the app and hosts the published
+  static build
+- `.github/workflows/pages.yml`: GitHub Actions workflow that tests, builds, and
+  deploys the site to GitHub Pages
+
+## Local development
+
+### React app
+
+```bash
+cd app
+npm install
+npm run dev
+```
+
+### React app tests
+
+```bash
+cd app
+npm test
+```
+
+### Docusaurus docs
+
+```bash
+cd website
+npm install
+npm run start
+```
+
+## Published output
+
+The GitHub Pages deployment publishes the Docusaurus site at the repository page
+URL and includes the built React app on the `/app` page.
